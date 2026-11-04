@@ -10,8 +10,6 @@ pip install -r requirements.txt
 Download the CSV from Kaggle (login required) into `data/` as `WA_Fn-UseC_-Telco-Customer-Churn.csv`.
 
 ```
-mkdir screenshots
-python make_notebook.py
 jupyter notebook analysis.ipynb     # run all cells: cleans data and writes churn.db
 streamlit run app.py
 ```
